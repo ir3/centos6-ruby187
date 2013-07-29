@@ -10,6 +10,6 @@ CentOS minimal + Ruby 1.8.7 + RubyGems 1.3.7 with epel, rpmforge, remi repositor
 ## ruby
 
     # ruby=ruby-1.8.7-p374;/opt/${ruby}/bin/ruby -v
-    ruby 1.8.7p374 (2013-06-27 revision 41673) [i686-linux]
+    ruby 1.8.7 (2013-06-27 patchlevel 374) [x86_64-linux]
     # echo "puts 'hello ruby'" | /opt/${ruby}/bin/ruby
     hello ruby
