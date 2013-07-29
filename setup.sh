@@ -44,7 +44,7 @@ yum -y install libyaml libyaml-devel
 # ruby
 if [ ! -e "/usr/local/src/${ruby}.tar.bz2" ]; then
   cd /usr/local/src
-  curl -O ftp://ftp.ruby-lang.org/pub/ruby/2.0/${ruby}.tar.bz2
+  curl -O ftp://ftp.ruby-lang.org/pub/ruby/1.8/${ruby}.tar.bz2
   tar xf ${ruby}.tar.bz2
   cd ${ruby}
   ./configure --prefix=/opt/${ruby} --enable-shared
